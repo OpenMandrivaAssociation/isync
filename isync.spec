@@ -1,7 +1,7 @@
 Summary:	Utility to synchronize IMAP mailboxes with local maildir folders
 Name:		isync
 Version:	1.0.3
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPL
 Group:		Networking/Mail
 URL:		http://isync.sf.net/
