@@ -1,8 +1,8 @@
 Summary:	Utility to synchronize IMAP mailboxes with local maildir folders
 Name:		isync
-Version:	1.0.3
-Release:	%mkrel 5
-License:	GPL
+Version:	1.0.4
+Release:	%mkrel 1
+License:	GPLv2
 Group:		Networking/Mail
 URL:		http://isync.sf.net/
 Source0:	http://prdownloads.sourceforge.net/isync/%{name}-%{version}.tar.bz2
@@ -18,21 +18,15 @@ changes can be propagated both ways. It is useful for working in disconnected
 mode, such as on a laptop or with a non-permanent internet collection (dIMAP).
 
 %prep
-
 %setup -q
 
 %build
-
 %configure2_5x
-
 %make
 
 %install
 rm -rf %{buildroot}
-
 %makeinstall_std
-
-# cleanup
 rm -rf %{buildroot}%{_datadir}/doc/isync
 
 %clean
