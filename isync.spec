@@ -43,3 +43,49 @@ rm -rf %{buildroot}
 %attr(0644,root,root) %{_mandir}/man1/mbsync.1*
 %attr(0644,root,root) %{_mandir}/man1/mdconvert.1*
 
+
+
+%changelog
+* Tue May 08 2012 Crispin Boylan <crisb@mandriva.org> 1.0.5-1
++ Revision: 797497
+- New release
+
+* Mon Dec 06 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0.4-3mdv2011.0
++ Revision: 612422
+- the mass rebuild of 2010.1 packages
+
+* Wed Apr 21 2010 Funda Wang <fwang@mandriva.org> 1.0.4-2mdv2010.1
++ Revision: 537329
+- rebuild
+
+* Tue Feb 16 2010 Sandro Cazzaniga <kharec@mandriva.org> 1.0.4-1mdv2010.1
++ Revision: 506849
+- fix licence and update to 1.0.4
+
+* Tue Jan 12 2010 Buchan Milne <bgmilne@mandriva.org> 1.0.3-5mdv2010.1
++ Revision: 490369
+- Rebuild for db-4.8
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 1.0.3-4mdv2010.0
++ Revision: 429575
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.0.3-3mdv2009.0
++ Revision: 247315
+- rebuild
+
+* Fri Jan 04 2008 Jérôme Soyer <saispo@mandriva.org> 1.0.3-1mdv2008.1
++ Revision: 144989
+- New release
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Fri Dec 14 2007 Thierry Vignaud <tv@mandriva.org> 1.0.2-2mdv2008.1
++ Revision: 119832
+- rebuild b/c of missing package on ia32
+- import isync
+
