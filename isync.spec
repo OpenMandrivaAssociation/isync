@@ -4,7 +4,7 @@ Version:	1.0.5
 Release:	2
 License:	GPLv2
 Group:		Networking/Mail
-URL:		http://isync.sf.net/
+URL:		https://isync.sf.net/
 Source0:	http://prdownloads.sourceforge.net/isync/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig
 BuildRequires:	openssl-devel
