@@ -6,6 +6,11 @@ License:	GPLv2
 Group:		Networking/Mail
 URL:		https://isync.sf.net/
 Source0:	http://prdownloads.sourceforge.net/isync/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig
 BuildRequires:	openssl-devel
 BuildRequires:	db-devel
